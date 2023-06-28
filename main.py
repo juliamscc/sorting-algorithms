@@ -3,6 +3,8 @@ from insertion_sort import *
 from straight_selection import *
 from quick_sort import *
 from merge_sort import *
+from shell_sort import *
+from heap_sort import *
 import time, random
 
 def crateRandomArray(size, min = 0, max = 1000, ):
@@ -103,6 +105,42 @@ if(True):
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
         print(lista)
+        print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
+        print()
+
+# terminar
+if(False):
+    print("Shell Sort")
+    n = 1
+    for i in range(1, auxTeste):
+        n = n*10
+        lista = crateRandomArray(n)
+        print(lista)
+        inicio = time.perf_counter_ns()
+        lista = shellSort(lista)
+        fim = time.perf_counter_ns()
+        tempo = (fim - inicio)
+        print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
+        print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
+        print()
+
+# terminar
+if(False):
+    print("Heap Sort")
+    n = 1
+    for i in range(1, auxTeste):
+        n = n*10
+        lista = crateRandomArray(n)
+        print(lista)
+        inicio = time.perf_counter_ns()
+        lista = heapSort(lista)
+        fim = time.perf_counter_ns()
+        tempo = (fim - inicio)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
