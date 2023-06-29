@@ -8,6 +8,7 @@ from heap_sort import *
 import time, random
 
 def crateRandomArray(size, min = 0, max = 1000, ):
+    random.seed(1)
     array = [random.randrange(min, max+1, 1) for i in range(size)]
     return array
 
@@ -92,8 +93,7 @@ if(False):
         print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
         print()
 
-# consertar o merge sort
-if(True):
+if(False):
     print("Merge Sort")
     n = 1
     for i in range(1, auxTeste):
