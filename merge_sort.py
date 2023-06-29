@@ -9,15 +9,15 @@ def merge(array, left, right):
             j += 1
         k += 1
 
-        while i < len(left):
-            array[k] = left[i]
-            i += 1
-            k += 1
+    while i < len(left):
+        array[k] = left[i]
+        i += 1
+        k += 1
 
-        while j < len(right):
-            array[k] = right[j]
-            j += 1
-            k += 1
+    while j < len(right):
+        array[k] = right[j]
+        j += 1
+        k += 1
 
 def mergeSort(array):
     if(len(array) > 1):
