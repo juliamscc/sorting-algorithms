@@ -19,6 +19,7 @@ def createNonSortedArray(size):
     return print(array)
 
 
+# Testes dos algoritmos de ordenação
 auxTeste = 3
 
 if(False):
@@ -112,7 +113,7 @@ if(False):
         print()
 
 # terminar
-if(False):
+if(True):
     print("Shell Sort")
     n = 1
     for i in range(1, auxTeste):
@@ -123,6 +124,7 @@ if(False):
         lista = shellSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
+        print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -141,6 +143,7 @@ if(False):
         lista = heapSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
+        print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
