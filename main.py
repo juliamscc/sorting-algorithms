@@ -76,7 +76,7 @@ if(False):
         print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
         print()
 
-if(False):
+if(True):
     print("Quick Sort")
     n = 1
     for i in range(1, auxTeste):
@@ -130,7 +130,6 @@ if(False):
         print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
         print()
 
-# terminar
 if(False):
     print("Heap Sort")
     n = 1
