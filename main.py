@@ -112,8 +112,7 @@ if(False):
         print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
         print()
 
-# terminar
-if(True):
+if(False):
     print("Shell Sort")
     n = 1
     for i in range(1, auxTeste):
