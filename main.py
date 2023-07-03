@@ -20,7 +20,7 @@ def createNonSortedArray(size):
 
 
 # Testes dos algoritmos de ordenação
-auxTeste = 3
+auxTeste = 6
 
 if(False):
     print("Bubble Sort")
@@ -28,12 +28,12 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = bubbleSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -46,12 +46,12 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = insertionSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -64,30 +64,30 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = straightSelection(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000000} em segundos')
         print()
 
-if(True):
+if(False):
     print("Quick Sort")
     n = 1
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = quickSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -100,12 +100,12 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = mergeSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -118,12 +118,12 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = shellSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
@@ -136,12 +136,12 @@ if(False):
     for i in range(1, auxTeste):
         n = n*10
         lista = crateRandomArray(n)
-        print(lista)
+        # print(lista)
         inicio = time.perf_counter_ns()
         lista = heapSort(lista)
         fim = time.perf_counter_ns()
         tempo = (fim - inicio)
-        print(lista)
+        # print(lista)
         print(f'n = {n} Tempo de execução: {tempo} nanossegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000} em microssegundos')
         print(f'n = {n} Tempo de execução: {tempo/1000000} em milissegundos')
