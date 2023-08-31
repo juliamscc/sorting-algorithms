@@ -16,8 +16,8 @@ Esse código mostra o tempo de execução dos algoritmos citados acima. Para iss
 <hr>
 
 <h3>Como rodar:</h3>
-No arquivo main.py, escolha o(s) algoritmo(s) de ordenação e altere a condição do if para True.
+No arquivo <strong>main.py</strong>, escolha o(s) algoritmo(s) de ordenação e altere a condição do if para True.
 <br>
-Escolha o tamanho máximo da lista alterando o valor da variável auxTeste.
+Escolha o tamanho máximo da lista alterando o valor da variável <strong>auxTeste</strong>.
 <br>
-Execute o arquivo main.py
+Execute o arquivo <strong>main.py</strong>.
